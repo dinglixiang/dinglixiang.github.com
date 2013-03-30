@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Dinglixiang Blog]]></title>
-  <link href="http://dinglixiang.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: git | Dinglixiang Blog]]></title>
+  <link href="http://dinglixiang.github.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://dinglixiang.github.com/"/>
   <updated>2013-03-30T19:14:44+08:00</updated>
   <id>http://dinglixiang.github.com/</id>
