@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | Git-log-life]]></title>
   <link href="http://dinglixiang.github.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://dinglixiang.github.com/"/>
-  <updated>2013-03-30T23:09:58+08:00</updated>
+  <updated>2013-03-31T13:49:13+08:00</updated>
   <id>http://dinglixiang.github.com/</id>
   <author>
     <name><![CDATA[dinglixiang]]></name>
@@ -22,15 +22,6 @@
 推荐使用 octopress 搭建github上的blog,方便,快捷.</p>
 
 <p>根据链接视频操作即可： <a href="http://happycasts.net/episodes/36?autoplay=true">http://happycasts.net/episodes/36?autoplay=true</a></p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[hello]]></title>
-    <link href="http://dinglixiang.github.com/blog/2013/03/30/hello/"/>
-    <updated>2013-03-30T19:09:00+08:00</updated>
-    <id>http://dinglixiang.github.com/blog/2013/03/30/hello</id>
-    <content type="html"><![CDATA[<p>hello git blog</p>
 ]]></content>
   </entry>
   
