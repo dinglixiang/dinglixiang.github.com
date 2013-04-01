@@ -4,7 +4,7 @@
   <title><![CDATA[Git-log-life]]></title>
   <link href="http://dinglixiang.github.com/atom.xml" rel="self"/>
   <link href="http://dinglixiang.github.com/"/>
-  <updated>2013-04-01T20:45:36+08:00</updated>
+  <updated>2013-04-01T21:07:52+08:00</updated>
   <id>http://dinglixiang.github.com/</id>
   <author>
     <name><![CDATA[dinglixiang]]></name>
@@ -12,18 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[设计模式之桥接模式]]></title>
-    <link href="http://dinglixiang.github.com/blog/2013/04/01/she-ji-mo-shi-zhi-qiao-jie-mo-shi/"/>
-    <updated>2013-04-01T20:28:00+08:00</updated>
-    <id>http://dinglixiang.github.com/blog/2013/04/01/she-ji-mo-shi-zhi-qiao-jie-mo-shi</id>
-    <content type="html"><![CDATA[<blockquote><p>实例一：模拟毛笔</p></blockquote>
-
-<p>现需要提供大中小3种型号的画笔，能够绘制5种不同颜色，如果使用蜡笔，我们需要准备3*5=15支蜡笔，也就是说必须准备15个具体的蜡笔类。而如果使用毛笔的话，只需要3种型号的毛笔，外加5个颜料盒，用3+5=8个类就可以实现15支蜡笔的功能。本实例使用桥接模式来模拟毛笔的使用过程。
-<img src="http://dinglixiang.github.com/home/dlx/myBlogs/dinglixiang.github.com/source/images/qiaojie.jpg" alt="Alt text" /></p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用github Pages搭建blog]]></title>
