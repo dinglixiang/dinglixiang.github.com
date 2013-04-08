@@ -9,8 +9,7 @@
   <meta name="author" content="dinglixiang">
 
   
-  <meta name="description" content="今天在Ruby-China上看到别人分享的资料，感觉很有用，而且自己也有很多东西需要学习，收藏一下。 访问http://www.diguage.com/archives/6.html查看具体内容。 转自并感谢 地瓜哥。
-">
+  <meta name="description" content="1.在主文件夹中找到隐藏文件 .bashrc ，在该文件的最下面添加如下脚本： PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;31m\]$(__git_ps1 "(%s)" \u) \[\033[01;36m\]\$\[\033[00m &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +78,47 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/04/08/ubuntu-zhong-duan-yan-se-she-zhi/">Ubuntu 终端颜色设置</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-08T20:33:00+08:00" pubdate data-updated="true">Apr 8<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>1.在主文件夹中找到隐藏文件 .bashrc ，在该文件的最下面添加如下脚本：</p>
+
+<pre><code>PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;31m\]$(__git_ps1 "(%s)" \u) \[\033[01;36m\]\$\[\033[00m\] '
+</code></pre>
+
+<p>2.重启终端即可看到效果。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -172,6 +212,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/08/ubuntu-zhong-duan-yan-se-she-zhi/">Ubuntu 终端颜色设置</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/05/fen-xiang-zi-liao-%5B%28zhuan-zi-di-gua-ge-%29%5D/">分享资料【转自 地瓜哥】</a>
       </li>
     
@@ -185,6 +229,7 @@
 <h1>Categories</h1>
 <ul id="categories">
 <li class='category'><a href='/blog/categories/share/'>Share (1)</a></li>
+<li class='category'><a href='/blog/categories/ubuntu/'>Ubuntu (1)</a></li>
 <li class='category'><a href='/blog/categories/git/'>git (1)</a></li>
 
 </ul>
