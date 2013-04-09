@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Git-log-life]]></title>
-  <link href="http://dinglixiang.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: RubyOnRails | Git-log-life]]></title>
+  <link href="http://dinglixiang.github.com/blog/categories/rubyonrails/atom.xml" rel="self"/>
   <link href="http://dinglixiang.github.com/"/>
   <updated>2013-04-09T22:10:39+08:00</updated>
   <id>http://dinglixiang.github.com/</id>
@@ -125,45 +125,6 @@ end
 <p>OK，解决了~~~</p>
 
 <p>参考自:<a href="http://stackoverflow.com/questions/10455527/sqlite3-h-missing-when-pushing-rails-app-to-heroku">http://stackoverflow.com/questions/10455527/sqlite3-h-missing-when-pushing-rails-app-to-heroku</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ubuntu 终端颜色设置]]></title>
-    <link href="http://dinglixiang.github.com/blog/2013/04/08/ubuntu-zhong-duan-yan-se-she-zhi/"/>
-    <updated>2013-04-08T20:33:00+08:00</updated>
-    <id>http://dinglixiang.github.com/blog/2013/04/08/ubuntu-zhong-duan-yan-se-she-zhi</id>
-    <content type="html"><![CDATA[<p>1.在主文件夹中找到隐藏文件 .bashrc ，在该文件的最下面添加如下脚本：</p>
-
-<pre><code>PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;31m\]$(__git_ps1 "(%s)" \u) \[\033[01;36m\]\$\[\033[00m\] '
-</code></pre>
-
-<p>2.重启终端即可看到效果。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[分享资料【转自 地瓜哥】]]></title>
-    <link href="http://dinglixiang.github.com/blog/2013/04/05/fen-xiang-zi-liao-%5B%28zhuan-zi-di-gua-ge-%29%5D/"/>
-    <updated>2013-04-05T22:19:00+08:00</updated>
-    <id>http://dinglixiang.github.com/blog/2013/04/05/fen-xiang-zi-liao-[(zhuan-zi-di-gua-ge-)]</id>
-    <content type="html"><![CDATA[<p>今天在Ruby-China上看到别人分享的资料，感觉很有用，而且自己也有很多东西需要学习，收藏一下。</p>
-
-<p>访问<a href="http://www.diguage.com/archives/6.html">http://www.diguage.com/archives/6.html</a>查看具体内容。</p>
-
-<p>转自并感谢 地瓜哥。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用github Pages搭建blog]]></title>
-    <link href="http://dinglixiang.github.com/blog/2013/03/30/shi-yong-github-pagesda-jian-blog/"/>
-    <updated>2013-03-30T22:51:00+08:00</updated>
-    <id>http://dinglixiang.github.com/blog/2013/03/30/shi-yong-github-pagesda-jian-blog</id>
-    <content type="html"><![CDATA[<blockquote><p>今天突然想弄个blog记录下生活，so 搜索并且问了问师兄。
-推荐使用 octopress 搭建github上的blog,方便,快捷.</p>
-
-<p>根据链接视频操作即可： <a href="http://happycasts.net/episodes/36?autoplay=true">http://happycasts.net/episodes/36?autoplay=true</a></p></blockquote>
 ]]></content>
   </entry>
   
