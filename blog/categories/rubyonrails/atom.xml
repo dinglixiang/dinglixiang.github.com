@@ -4,7 +4,7 @@
   <title><![CDATA[Category: RubyOnRails | Git-log-life]]></title>
   <link href="http://dinglixiang.github.com/blog/categories/rubyonrails/atom.xml" rel="self"/>
   <link href="http://dinglixiang.github.com/"/>
-  <updated>2013-04-10T22:21:03+08:00</updated>
+  <updated>2013-04-10T22:21:50+08:00</updated>
   <id>http://dinglixiang.github.com/</id>
   <author>
     <name><![CDATA[dinglixiang]]></name>
@@ -28,7 +28,7 @@
 gem 'bootstrap-sass', '~&gt; 2.3.1.0'
 </code></pre>
 
-<p>2.其次，在自己定义的css。scss文件中引入 ‘bootstrap’</p>
+<p>2.其次，在自己定义的css.scss文件中引入 ‘bootstrap’</p>
 
 <pre><code>@import "bootstrap";
 </code></pre>
