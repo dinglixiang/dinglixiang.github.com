@@ -4,7 +4,7 @@
   <title><![CDATA[Git-log-life]]></title>
   <link href="http://dinglixiang.github.com/atom.xml" rel="self"/>
   <link href="http://dinglixiang.github.com/"/>
-  <updated>2013-04-09T22:10:39+08:00</updated>
+  <updated>2013-04-10T22:21:03+08:00</updated>
   <id>http://dinglixiang.github.com/</id>
   <author>
     <name><![CDATA[dinglixiang]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ROR中使用 bootStrap-sass]]></title>
+    <link href="http://dinglixiang.github.com/blog/2013/04/10/rorzhong-shi-yong-bootstrap-sass/"/>
+    <updated>2013-04-10T21:57:00+08:00</updated>
+    <id>http://dinglixiang.github.com/blog/2013/04/10/rorzhong-shi-yong-bootstrap-sass</id>
+    <content type="html"><![CDATA[<blockquote><p>对于css等样式设计，我就是个彩笔。所以就想通过某种方式来弥补。前段时间在学习RubyOnRails教程的时候开始接触了bootstrap,但是当时挺懵的，现在在来回顾一下。</p></blockquote>
+
+<p>假设我们已经建好了Rails项目，然后在Rails应用中使用 bootstrap-sass 进行样式的设计.</p>
+
+<p>1.首先，在Gemfile中添加gem:</p>
+
+<pre><code>gem 'sass-rails', '~&gt; 3.2'
+gem 'bootstrap-sass', '~&gt; 2.3.1.0'
+</code></pre>
+
+<p>2.其次，在自己定义的css。scss文件中引入 ‘bootstrap’</p>
+
+<pre><code>@import "bootstrap";
+</code></pre>
+
+<p>3.最后，在项目的javascripts（application.js文件）中加入如下代码片段：</p>
+
+<pre><code>// Loads all Bootstrap javascripts
+//= require bootstrap
+</code></pre>
+
+<p>4.最最后，查看<a href="http://xiemin.me/bootstrap-2.3.0/index.html">bootstrap 中文说明文档</a>了解更多内容。</p>
+
+<p><em>参考自：github <a href="https://github.com/thomas-mcdonald/bootstrap-sass">bootstrap-sass</a></em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rails部署在heroku上时错误及解决]]></title>
