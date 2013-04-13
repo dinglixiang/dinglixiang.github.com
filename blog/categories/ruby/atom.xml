@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: RubyOnRails | Git-log-life]]></title>
-  <link href="http://dinglixiang.github.com/blog/categories/rubyonrails/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Ruby | Git-log-life]]></title>
+  <link href="http://dinglixiang.github.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://dinglixiang.github.com/"/>
-  <updated>2013-04-10T22:27:19+08:00</updated>
+  <updated>2013-04-13T22:44:12+08:00</updated>
   <id>http://dinglixiang.github.com/</id>
   <author>
     <name><![CDATA[dinglixiang]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Install rmagick on Ubuntu]]></title>
+    <link href="http://dinglixiang.github.com/blog/2013/04/13/install-rmagick-on-ubuntu/"/>
+    <updated>2013-04-13T22:31:00+08:00</updated>
+    <id>http://dinglixiang.github.com/blog/2013/04/13/install-rmagick-on-ubuntu</id>
+    <content type="html"><![CDATA[<blockquote><p>今天在处理关于使用 ‘carrierwave’ 上传图片的时候，设计到图片的大小问题，需要用到 ‘rmagick’ 这个gem,但是直接添加到Gemfile里然后运行 bundle， 发现未能成功。网上寻找之后发现需要安装一些东东依赖。</p></blockquote>
+
+<p>具体方案：</p>
+
+<pre><code>sudo apt-get install libmagickwand-dev
+</code></pre>
+
+<p>然后再安装 ‘rmagick’ 就好了.</p>
+
+<pre><code>gem install rmagick
+</code></pre>
+
+<p>OK,我的问题解决了！希望你也如此……</p>
+
+<p>参考自：<a href="http://superuser.com/questions/163818/how-to-install-rmagick-on-ubuntu-10-04">http://superuser.com/questions/163818/how-to-install-rmagick-on-ubuntu-10-04</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ROR中使用 bootstrap-sass]]></title>
