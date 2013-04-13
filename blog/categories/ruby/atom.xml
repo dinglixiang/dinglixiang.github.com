@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | Git-log-life]]></title>
   <link href="http://dinglixiang.github.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://dinglixiang.github.com/"/>
-  <updated>2013-04-13T22:44:12+08:00</updated>
+  <updated>2013-04-13T22:53:12+08:00</updated>
   <id>http://dinglixiang.github.com/</id>
   <author>
     <name><![CDATA[dinglixiang]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rails 中文问题]]></title>
+    <link href="http://dinglixiang.github.com/blog/2013/04/13/rails-zhong-wen-wen-ti/"/>
+    <updated>2013-04-13T22:48:00+08:00</updated>
+    <id>http://dinglixiang.github.com/blog/2013/04/13/rails-zhong-wen-wen-ti</id>
+    <content type="html"><![CDATA[<p>虽然是很老的东东，但是还是要记载下来。</p>
+
+<p>在Rails应用中，有时会在代码片段中使用中文，这时需要我们在文件的开头添加如下 code:</p>
+
+<pre><code>#encoding:utf-8
+</code></pre>
+
+<p>然后就可以放心使用中文了。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Install rmagick on Ubuntu]]></title>
