@@ -4,7 +4,7 @@
   <title><![CDATA[Git-log-life]]></title>
   <link href="http://dinglixiang.github.com/atom.xml" rel="self"/>
   <link href="http://dinglixiang.github.com/"/>
-  <updated>2013-04-13T22:53:12+08:00</updated>
+  <updated>2013-04-15T22:44:48+08:00</updated>
   <id>http://dinglixiang.github.com/</id>
   <author>
     <name><![CDATA[dinglixiang]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[jsp引入css]]></title>
+    <link href="http://dinglixiang.github.com/blog/2013/04/15/jspyin-ru-css/"/>
+    <updated>2013-04-15T22:30:00+08:00</updated>
+    <id>http://dinglixiang.github.com/blog/2013/04/15/jspyin-ru-css</id>
+    <content type="html"><![CDATA[<p>Servlet和Jsp的NIIT课程已经结束，开始动手自己的实践项目了。</p>
+
+<p>本次项目主题来自 @林桑 的启发，取名为： &#8216;恋爱ing&#8217;，致力于服务广大热恋中的男女朋友。</p>
+
+<p>在这个项目中，有很多知识点是自己没有接触过的，或者是被自己遗忘的，所以也希望能够通过blog来记录自己的开发过程及知识点。</p>
+
+<p>1.jsp中引入css文件（最简单的方式）</p>
+
+<p>在 ’head‘ 标签中加入如下代码：</p>
+
+<pre><code>&lt;link href="mystyle.css" rel="stylesheet" type="text/css"/&gt;
+</code></pre>
+
+<p>这里的mystyle.css与jsp的文件在同级目录下，当然也可以将css文件放在自定义的文件夹下，不过 href 的路径要写对。</p>
+
+<p>OK，明天继续！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rails 中文问题]]></title>
